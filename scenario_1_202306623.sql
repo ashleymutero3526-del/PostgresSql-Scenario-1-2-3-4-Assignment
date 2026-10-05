@@ -1,6 +1,6 @@
 -- ICT371 PostgreSQL Scenario Assignment
 -- Scenario 1: University Library Book Loans
--- Student Number: 202409469
+-- Student Number: 202306623
 -- Run in pgAdmin Query Tool (or psql). View RAISE NOTICE output in the "Messages" tab.
 
 -- Clean start
