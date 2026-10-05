@@ -1,6 +1,4 @@
--- ICT371 PostgreSQL Scenario Assignment
--- Scenario 2: Computer Laboratory Reservations
--- Student Number: 202409469
+
 
 DROP TABLE IF EXISTS reservations;
 DROP TABLE IF EXISTS lab_sessions;
