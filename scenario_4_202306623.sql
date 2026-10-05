@@ -1,7 +1,6 @@
 DROP TABLE IF EXISTS dispensing_records;
 DROP TABLE IF EXISTS medicines;
 
--- 1. Tables and sample data
 CREATE TABLE medicines (
     medicine_id    SERIAL PRIMARY KEY,
     medicine_name  VARCHAR(100) NOT NULL,
