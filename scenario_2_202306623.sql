@@ -1,7 +1,6 @@
 DROP TABLE IF EXISTS reservations;
 DROP TABLE IF EXISTS lab_sessions;
 
--- 1. Tables and sample data
 CREATE TABLE lab_sessions (
     session_id               SERIAL PRIMARY KEY,
     session_name             VARCHAR(100) NOT NULL,
