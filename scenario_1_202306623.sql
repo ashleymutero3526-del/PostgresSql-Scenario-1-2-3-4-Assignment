@@ -1,13 +1,9 @@
 -- ICT371 PostgreSQL Scenario Assignment
--- Scenario 1: University Library Book Loans
 -- Student Number: 202306623
--- Run in pgAdmin Query Tool (or psql). View RAISE NOTICE output in the "Messages" tab.
-
--- Clean start
 DROP TABLE IF EXISTS book_loans;
 DROP TABLE IF EXISTS books;
 
--- 1. Tables and sample data
+
 CREATE TABLE books (
     book_id          SERIAL PRIMARY KEY,
     title            VARCHAR(100) NOT NULL,
