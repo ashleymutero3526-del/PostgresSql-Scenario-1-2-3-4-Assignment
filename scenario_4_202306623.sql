@@ -1,7 +1,3 @@
--- ICT371 PostgreSQL Scenario Assignment
--- Scenario 4: Campus Clinic Medicine Dispensing
--- Student Number: 202409469
-
 DROP TABLE IF EXISTS dispensing_records;
 DROP TABLE IF EXISTS medicines;
 
