@@ -1,7 +1,6 @@
 DROP TABLE IF EXISTS allocations;
 DROP TABLE IF EXISTS hostel_rooms;
 
--- 1. Tables and sample data
 CREATE TABLE hostel_rooms (
     room_id          SERIAL PRIMARY KEY,
     room_name        VARCHAR(50) NOT NULL,
