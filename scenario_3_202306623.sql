@@ -1,7 +1,3 @@
--- ICT371 PostgreSQL Scenario Assignment
--- Scenario 3: Student Hostel Room Allocation
--- Student Number: 202409469
-
 DROP TABLE IF EXISTS allocations;
 DROP TABLE IF EXISTS hostel_rooms;
 
